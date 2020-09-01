@@ -1,0 +1,31 @@
+{
+  "name": "object-detector",
+  "version": "1.0.0",
+  "description": "Machine Learning Object Detector for NodeJS",
+  "main": "lib/ObjectDetector.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swimauger/object-detector.git"
+  },
+  "keywords": [
+    "Object",
+    "Detector",
+    "Machine",
+    "Learning"
+  ],
+  "author": "Mark Auger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/swimauger/object-detector/issues"
+  },
+  "homepage": "https://github.com/swimauger/object-detector#readme",
+  "dependencies": {
+    "canvas": "^2.6.1"
+  },
+  "devDependencies": {
+    "image-classifier": "^1.0.3"
+  }
+}
